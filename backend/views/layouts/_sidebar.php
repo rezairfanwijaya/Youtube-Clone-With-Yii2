@@ -4,7 +4,7 @@ use yii\bootstrap4\Nav;
  
 ?>
 
-<aside class="mt-3 shadow" style="width: 200px; ">
+<aside class="mt-3 flex-grow-1" style="width: 200px;">
     <?php echo  Nav::widget([
         'items' => [
             [
@@ -18,8 +18,9 @@ use yii\bootstrap4\Nav;
             ],
 
         'options' => [
-            'class' => 'mt-5 d-flex flex-column content'
+            'class' => 'mt-5 d-flex flex-column content flex-1'
 
         ]])?>
 
+        <hr>
 </aside>
